@@ -3,14 +3,15 @@
 * Visual Studio 2015
 
 ## Installation 
-* Clone
+* Clone  
     ```
     git clone https://github.com/nodece/MasterRD.Net.git
     ```
-* Use
-    ```C#
+* Use  
+    ``` csharp
     using MasterRD.Net;
     public void GetCard()
+
     {
         Rf rf = new Rf();
         string card = rf.ReadCard(1);
